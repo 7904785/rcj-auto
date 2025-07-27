@@ -11,8 +11,10 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="home.css">
   <link rel="shortcut icon" href="logo.png" type="image/x-icon">
   <script src="script.js" defer></script>
+  <script src="home.js" defer></script>
 </head>
 
 <body>
@@ -32,7 +34,7 @@
             <li><a href="#">LPG & Petrol</a></li>
           </ul>
         </li>
-        <li><a href="#">Become A Dealer</a></li>
+        <li><a href="become-a-dealer.html">Become A Dealer</a></li>
         <li><a href="#">Gallery</a></li>
         <li>
           <a href="#" class="mobile-dropdown-toggle" onclick="dropDown(event)">About Us ▾</a>
@@ -48,7 +50,7 @@
       <!-- ✅ Desktop Navbar -->
       <ul class="nav-menu">
         <li class="logo"><a href="#">RCJ Auto</a></li>
-        <li class="hideOnMobile"><a href="#">Home</a></li>
+        <li class="hideOnMobile active"><a href="#" >Home</a></li>
         <li class="hideOnMobile dropdown">
           <a href="#">Our Products ▾</a>
           <ul class="dropdown-menu">
@@ -59,7 +61,7 @@
             <li><a href="#">LPG & Petrol</a></li>
           </ul>
         </li>
-        <li class="hideOnMobile"><a href="#">Become A Dealer</a></li>
+        <li class="hideOnMobile"><a href="become-a-dealer.html">Become A Dealer</a></li>
         <li class="hideOnMobile"><a href="#">Gallery</a></li>
         <li class="hideOnMobile dropdown">
           <a href="#">About Us ▾</a>
@@ -74,6 +76,33 @@
       </ul>
     </nav>
   </header>
+
+  
+<div class="fade-slider" id="gallery">
+  <!-- Slides -->
+  <div class="slide active"><img src="./images/01.jpg" alt="Slide 1"></div>
+  <div class="slide active"><img src="./images/02.jpg" alt="Slide 2"></div>
+  <div class="slide active"><img src="./images/03.jpg" alt="Slide 3"></div>
+  <div class="slide active"><img src="./images/04.jpg" alt="Slide 4"></div>
+  <div class="slide active"><img src="./images/05.jpg" alt="Slide 5"></div>
+  
+
+  <!-- Controls -->
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
+
+  <!-- Dots -->
+  <div class="dots"></div>
+</div>
+
+
+
+
+
+
+
+
+
   <footer>
     <div class="social-media">
       <a href=""><img src="youtube.svg" alt=""></a>
@@ -122,7 +151,7 @@
 
       </div>
     </div>
-    <p class="copy-right">Copyright © 2025 RCJ AUTO Forge Pvt. Ltd. All rights reserved.</p>
+    <p class="copy-right">Copyright © 2025 RCJ Auto Forge Pvt. Ltd. All rights reserved.</p>
   </footer>
 
 </body>
