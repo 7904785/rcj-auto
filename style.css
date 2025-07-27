@@ -229,7 +229,19 @@
     font-size: 0.9rem;
     min-height: 50px;
     margin-top: auto;
-    border-top: 2px solid #2a0561;
+    border-top: 2px solid #f0f0f0;
     margin-top: 5px;
+    font-family: inherit;
   }
-  
+  .nav-menu li:hover{
+    border-bottom: 3px solid black;
+  }
+  .nav-menu li.logo{
+    border: none;
+  }
+  .nav-menu .active{
+     border-bottom: 3px solid black;
+  }
+
+
+
